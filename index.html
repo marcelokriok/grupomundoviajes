@@ -15,7 +15,7 @@
 <body>
     <header>
         <a href="#" class="logo">
-            <img src="./imagenes/logo.png" alt="logo empresa" class="img logo">
+            <img src="./imagenes/logo empresa.png" alt="logo empresa" class="img logo">
             <h2 class="ml-10px">GRUPO MUNDO VIAJES</h2>
         </a>
         <nav>
@@ -27,8 +27,95 @@
             <i class="bi bi-list"></i>
         </button>
     </header>
-    <main>
-        
+
+    <main class="main">
+        <section class="seccion1">
+            <div class="caja">
+                <div class="formulario">
+                    <label for="usuario">ingrese su usuario</label>
+                    <input type="nombre" id="nombre" placeholder="Usuario">
+                    <br>  
+                    <label for="contraseña">ingrese su contraseña</label>
+                    
+                    <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña">
+                </div>
+                    <input type="submit" value="Enviar" class="btn-enviar_caja">
+            </div>
+            <div class="secc1a">
+                <img class= "imagencataratas" src="./imagenes/cataratas gif.gif" alt="gif cataratas">
+            </div>
+        </section>
+        <section class="seccion2">
+                <div class="caja2">
+                    <h2 class="paquete">Seleccione su paquete</h2>
+                    <form class="formulario2">
+                        <div class="inputConteiner">
+                            <label for="origen ">Origen</label> 
+                             <input type="text" placeholder="Ingrese su lugar de Origen" id="origen" name="origen"class="origen">
+                            </div>
+                        
+                            <div class="inputConteiner">
+                            <label for="destino"> Destino</label> 
+                            <select name="Destino" id="Destino" name="Destino"> 
+                            <option value="Salta"> Salta</option>
+                            <option value="Córdoba">Córdoba</option>
+                            <option value="Mendoza">Mendoza</option>
+                            <option value="Cataratas">Cataratas</option>
+                            <option value="Bariloche">Bariloche</option>
+                            </select>
+                            </div>
+                            
+            
+                
+                        <div class="inputConteiner">
+                             <label for="salida">Fecha de salida</label >
+                            <section name="salida"  id="salida">
+                            <input type="date" placeholder="salida" id="fecha" name="fecha" class="origen">
+                             </select>
+                            </div>
+            
+                        <div class="inputConteiner">
+                                <label for="llegada">Fecha de llegada</label >
+                               <section name="llegada"  id="llegada">
+                               <input type="date" placeholder="Fecha de llegada" id="fechas" name="fechas" class="origen">
+                                </select>
+                               </div>
+            
+            
+                        
+                        <div class="inputConteiner">
+                                <label for="pasajeros">Cantidad de Pasajeros</label> 
+                                <select name="Pasajeros" id=" pasajeros"> 
+                                <option value="1"> 1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="+ de 8">+ de 8</option>
+                        </div>
+                                
+                            </select>
+            
+                                <input type="submit" value="Enviar"  class="boton-enviar">
+            
+            
+            
+                        </form>
+                    </div>
+                    
+                </div>
+        </section>
+        <section class="seccion3">
+                <div class="imgsecc3">
+                    <img class="imgarg" src="./imagenes/paquetes-argentina.jpg" alt="paquetes-argentina">
+                    <img class="imgcari" src="./imagenes/paquetes-caribe.jpg" alt="paquetes-caribe">
+
+                </div>
+        </section>
+       
     </main>
 
     <footer class="footer">
@@ -52,18 +139,21 @@
                                 <li class="sang">+54 261 738 4567</li>
                                 <li class="sang">+54 262 764 9836</li>
                             <h4 class="sTitle">Via email</h4>
+                                <form>
                                     <label for="email"></label>
                                     <input type="email" id="email" placeholder="ejemplo@ejemplo.com">
-                                    <input type="submit" value="Enviar">
+                                    <input type="submit" value="Enviar" class="btn-enviar_footer">
+                                </form>
                         </ul>
                 </div>
                 <div class="footerLink">
                     <h3>Links externos</h3>
-                    <ul>
-                        <li><a href="https://www.assistcard.com/ar" target="_blank">Seguros</a></li>
-                        <li><a href="https://www.hertz.com.ar/" target="_blank">Alquileres de autos</a></li>
-                        <li><a href="https://latiendadelviajero.com.ar/" target="_blank">Todo para el viajero</a></li>
-                    </ul>
+                        <ul>
+                            <li><a href="https://www.assistcard.com/ar" target="_blank">Seguros</a></li>
+                            <li><a href="https://www.hertz.com.ar/" target="_blank">Alquileres de autos</a></li>
+                            <li><a href="https://latiendadelviajero.com.ar/" target="_blank">Todo para el viajero</a></li>
+                        </ul>
+
                 </div>
                 <div class="socialLink">
                     <h3>Siguenos por nuestras redes</h3>
